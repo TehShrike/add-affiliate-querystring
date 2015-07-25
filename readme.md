@@ -8,11 +8,11 @@ Will only apply changes on the domain/host you specify.
 ```js
 
 var createAdderFunction = require('./')
-var addAffiliateCode = createAdderFunction('shoppingsite.com')
+var addAffiliateCode = createAdderFunction('shoppingsite.com', 'code', 'my-money-making-code')
 
-addAffiliateCode('http://shoppingsite.com/thing', 'code', 'my-money-making-code') // => 'http://shoppingsite.com/thing?code=my-money-making-code'
+addAffiliateCode('http://shoppingsite.com/thing') // => 'http://shoppingsite.com/thing?code=my-money-making-code'
 
-addAffiliateCode('http://google.com/thing', 'code', 'my-money-making-code') // => 'http://google.com/thing'
+addAffiliateCode('http://google.com/thing') // => 'http://google.com/thing'
 ```
 
 # License

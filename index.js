@@ -1,7 +1,7 @@
 var url = require('url')
 
-module.exports = function createAffiliateLinkFunction(domain) {
-	return function(input, key, value) {
+module.exports = function createAffiliateLinkFunction(domain, key, value) {
+	return function(input) {
 		var parsed = url.parse(input, true)
 
 		if (parsed.hostname === domain) {
