@@ -1,6 +1,6 @@
 {
   "name": "add-affiliate-querystring",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Given a user-entered URL, add your own affiliate code to the querystring.",
   "main": "index.js",
   "scripts": {
