@@ -1,0 +1,26 @@
+{
+  "name": "add-affiliate-querystring",
+  "version": "1.0.0",
+  "description": "Given a user-entered URL, add your own affiliate code to the querystring.\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/add-affiliate-querystring.git"
+  },
+  "keywords": [
+    "amazon",
+    "affiliate",
+    "associate",
+    "querystring",
+    "tag"
+  ],
+  "author": "TehShrike",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TehShrike/add-affiliate-querystring/issues"
+  },
+  "homepage": "https://github.com/TehShrike/add-affiliate-querystring#readme"
+}
