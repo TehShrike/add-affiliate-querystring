@@ -1,10 +1,10 @@
 {
   "name": "add-affiliate-querystring",
   "version": "1.0.0",
-  "description": "Given a user-entered URL, add your own affiliate code to the querystring.\u001b[C",
+  "description": "Given a user-entered URL, add your own affiliate code to the querystring.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js | faucet && jsmd readme.md"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/TehShrike/add-affiliate-querystring/issues"
   },
-  "homepage": "https://github.com/TehShrike/add-affiliate-querystring#readme"
+  "homepage": "https://github.com/TehShrike/add-affiliate-querystring#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "jsmd": "^0.3.0",
+    "tape": "^4.0.1"
+  }
 }
